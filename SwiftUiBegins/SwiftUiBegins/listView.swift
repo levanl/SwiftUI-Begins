@@ -56,7 +56,7 @@ struct listView: View {
             
             Spacer()
             
-            HStack (spacing: 30){
+            HStack (spacing: 60){
                 Button("Clear Chat") {
                     people.removeAll()
                     isListEmpty = true
@@ -84,7 +84,9 @@ struct listView: View {
                 .background(Color(red: 36/255, green: 39/255, blue: 96/255))
                 .foregroundStyle(.white)
                 .cornerRadius(10)
+                
             }
+            .padding(.horizontal, 20)
         }
         .padding(0)
         .background(Color(red: 51/255, green: 51/255, blue: 51/255))
@@ -109,7 +111,7 @@ struct PersonDetail: View {
                     Text(person.name)
                         .foregroundStyle(.white)
                         .font(.system(size: 20))
-
+                    
                     Spacer()
                     
                     Text(person.time)

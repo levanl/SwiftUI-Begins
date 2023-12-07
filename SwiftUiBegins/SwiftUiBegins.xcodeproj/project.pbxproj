@@ -8,7 +8,7 @@
 
 /* Begin PBXBuildFile section */
 		C4CA5DE12B205A0500760AD4 /* SwiftUIBeginsApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = C4CA5DE02B205A0500760AD4 /* SwiftUIBeginsApp.swift */; };
-		C4CA5DE32B205A0500760AD4 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = C4CA5DE22B205A0500760AD4 /* ContentView.swift */; };
+		C4CA5DE32B205A0500760AD4 /* EditProfileView.swift in Sources */ = {isa = PBXBuildFile; fileRef = C4CA5DE22B205A0500760AD4 /* EditProfileView.swift */; };
 		C4CA5DE52B205A0600760AD4 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = C4CA5DE42B205A0600760AD4 /* Assets.xcassets */; };
 		C4CA5DE82B205A0600760AD4 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = C4CA5DE72B205A0600760AD4 /* Preview Assets.xcassets */; };
 		C4CA5DEF2B20FB5300760AD4 /* listView.swift in Sources */ = {isa = PBXBuildFile; fileRef = C4CA5DEE2B20FB5300760AD4 /* listView.swift */; };
@@ -17,7 +17,7 @@
 /* Begin PBXFileReference section */
 		C4CA5DDD2B205A0500760AD4 /* SwiftUIBegins.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SwiftUIBegins.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		C4CA5DE02B205A0500760AD4 /* SwiftUIBeginsApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SwiftUIBeginsApp.swift; sourceTree = "<group>"; };
-		C4CA5DE22B205A0500760AD4 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		C4CA5DE22B205A0500760AD4 /* EditProfileView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EditProfileView.swift; sourceTree = "<group>"; };
 		C4CA5DE42B205A0600760AD4 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		C4CA5DE72B205A0600760AD4 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		C4CA5DEE2B20FB5300760AD4 /* listView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = listView.swift; sourceTree = "<group>"; };
@@ -54,7 +54,7 @@
 			isa = PBXGroup;
 			children = (
 				C4CA5DE02B205A0500760AD4 /* SwiftUIBeginsApp.swift */,
-				C4CA5DE22B205A0500760AD4 /* ContentView.swift */,
+				C4CA5DE22B205A0500760AD4 /* EditProfileView.swift */,
 				C4CA5DE42B205A0600760AD4 /* Assets.xcassets */,
 				C4CA5DE62B205A0600760AD4 /* Preview Content */,
 				C4CA5DEE2B20FB5300760AD4 /* listView.swift */,
@@ -140,7 +140,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				C4CA5DE32B205A0500760AD4 /* ContentView.swift in Sources */,
+				C4CA5DE32B205A0500760AD4 /* EditProfileView.swift in Sources */,
 				C4CA5DEF2B20FB5300760AD4 /* listView.swift in Sources */,
 				C4CA5DE12B205A0500760AD4 /* SwiftUIBeginsApp.swift in Sources */,
 			);
